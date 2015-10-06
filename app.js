@@ -53,7 +53,7 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
 // let's define the scotch controller that we call up in the about state
 routerApp.controller('scotchController', function($scope) {
 
-    $scope.message = 'test';
+    
 
     $scope.scotches = [
         {
